@@ -1,0 +1,252 @@
+.body
+{
+  font-family: 'Exo 2', sans-serif;
+}
+a
+{
+  text-decoration: none;
+}
+
+/* title */
+#title
+{
+  background-color: #5d54a4;
+  color: white;
+  padding-bottom: 100px;
+}
+.title-custom
+{
+  border-bottom: 8px solid #d789d7;
+}
+.navbar
+{
+font-family: 'Exo 2', sans-serif;
+  padding:0 0 4.5rem;
+  color: #9d65c9;
+}
+.navbar-brand
+{
+  font-family: 'Audiowide', cursive;
+    font-size: 2rem;
+}
+.nav-item
+{
+  padding: 0 18px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.2rem;
+  color: #5d54a4;
+}
+.nav-link
+{
+  border-bottom: 8px solid transparent;
+}
+.nav-link:hover
+{
+  border-bottom: 5px solid #d789d7;
+}
+
+@media (max-width: 770px)
+{
+  .title-row
+  {
+    text-align:center;
+  }
+}
+.title-row
+{
+  font-family: 'Exo 2', sans-serif;
+}
+.title
+{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.title-img
+{
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+.container-fluid
+{
+  padding:3% 15% 3%;
+}
+.download-btn
+{
+  margin: 5% 3% 5% 0;
+}
+
+/*  flow section */
+
+#flow
+{
+  padding:15% 15% 25%;
+  text-align:center;
+  background-color: white;
+  position: relative;
+  background-color: #5d54a4;
+}
+.card-row
+{
+  font-family: 'Exo 2', sans-serif;
+}
+.card
+{
+  border-radius: 0;
+  border:0;
+}
+.card-header:first-child
+{
+  border-radius: 0;
+}
+@media (max-width:1028px)
+{
+  .flow-col
+  {
+    margin-top: 50px;
+  }
+
+}
+.flow-header
+{
+  position: absolute;
+  padding: 5px;
+  top: -20px;
+  left:10px;
+  background-color: #de4463;
+  color: white;
+  box-shadow: 1px 1px 3px #3b3c3c;
+}
+.flow-body
+{
+  background-color: #9d65c9;
+  padding: 40px 40px;
+  text-align: left;
+  color: white;
+}
+.flow-footer
+{
+  position: absolute;
+  padding:5px;
+  right:10px;
+  bottom: -10px;
+  border: 0;
+  background-color: #de4463;
+  color: white;
+  font-size: 1rem;
+  box-shadow: 1px 1px 3px #3b3c3c;
+}
+h3
+{
+  font-weight: bold;
+}
+p
+{
+  color: #8f8f8f;
+}
+
+/* team */
+#team
+{
+  padding: 0 15% 15% 15%;
+  background-color: #de4463;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.team-row
+{
+  padding-top: 10%;
+}
+@media (max-width:1028px)
+{
+  .team-col
+  {
+    margin-bottom: 60px;
+  }
+}
+.team-title
+{
+  display: inline-block;
+  position:relative;
+  top: -30px;
+  background-color: #de4463;
+  padding: 5px;
+  box-shadow: 1px 1px 3px #3b3c3c;
+}
+
+/* tetimonials section */
+
+#testimonials
+{
+  text-align: center;
+  background-color: #9d65c9;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+h2
+{
+font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+p
+{
+  color: inherit;
+}
+
+/* footer */
+#footer
+{
+  text-align: center;
+  padding: 10% 15% 3%;
+  line-height: 2.5;
+  color: white;
+  background-color: #5d54a4;
+  font-family: 'Exo 2', sans-serif;
+}
+.footer-lab-info
+{
+  text-align: left;
+}
+@media (max-width: 1028px)
+{
+  .footer-lab-info
+  {
+    text-align: center;
+  }
+  .footer-col
+  {
+    padding-bottom: 50px;
+  }
+}
+
+.footer-contact
+{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer-contact-links
+{
+  color: white
+}
+.footer-contact-links:hover
+{
+  color: #de4463;
+}
+.footer-links
+{
+  padding: 8px;
+}
+.footer-copyright
+{
+  margin:0;
+  margin-top: 30px;
+
+}
