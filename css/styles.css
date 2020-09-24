@@ -27,7 +27,7 @@ font-family: 'Exo 2', sans-serif;
 .navbar-brand
 {
   font-family: 'Audiowide', cursive;
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .nav-item
 {
@@ -55,6 +55,25 @@ font-family: 'Exo 2', sans-serif;
 .title-row
 {
   font-family: 'Exo 2', sans-serif;
+  padding-top: 70px;
+}
+.title-img-left
+{
+  width:200px;
+  position: absolute;
+  margin-left: auto 0 auto 0;
+  top:220px;
+  left: -70px;
+}
+@media (max-width: 1028px){
+  .title-img-left{
+    position: relative;
+    top:50px;
+    left:0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .title
 {
@@ -87,9 +106,9 @@ font-family: 'Exo 2', sans-serif;
   padding:15% 15% 25%;
   text-align:center;
   background-color: white;
-  position: relative;
   background-color: #5d54a4;
 }
+
 .card-row
 {
   font-family: 'Exo 2', sans-serif;
