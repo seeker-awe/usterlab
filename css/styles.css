@@ -67,6 +67,7 @@ font-family: 'Exo 2', sans-serif;
 }
 @media (max-width: 1028px){
   .title-img-left{
+    width:250px;
     position: relative;
     top:50px;
     left:0;
