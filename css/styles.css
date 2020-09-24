@@ -65,28 +65,15 @@ font-family: 'Exo 2', sans-serif;
   line-height: 1.5;
   margin-bottom: 40px;
 }
-
-.title-img
-{
-  width: 50%;
-  transform: rotate(20deg);
-  position: absolute;
-  right: 20%;
-}
 .container-fluid
 {
   padding:3% 15% 3%;
 }
-.download-btn
-{
-  margin: 5% 3% 5% 0;
-}
-
 /*  flow section */
 
 #flow
 {
-  padding:15% 15% 5%;
+  padding:0% 15% 15%;
   text-align:center;
   background-color: white;
   background-color: #5d54a4;
